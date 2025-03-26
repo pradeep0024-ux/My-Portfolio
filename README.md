@@ -1,7 +1,7 @@
 
 ### Deployment
 
-This section has moved here: [Click Here](https://pradeep0024-portfolio.netlify.app/)
+Check it here [My Portfolio](https://pradeep0024-portfolio.netlify.app/)
 
 ### `npm run build` fails to minify
 
