@@ -80,6 +80,7 @@ export const HeroRightContainer = styled.div`
   order: 2;
   justify-content: end;
   gap: 12px;
+  margin-bottom:230px;
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -96,10 +97,10 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 350px;
+  max-height: 350px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  ${'' /* border: 2px solid ${({ theme }) => theme.primary}; */}
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -181,12 +182,13 @@ export const ResumeButton = styled.a`
   font-size: 20px;
   font-weight: 600;
   transition: all 0.2s ease-in-out !important;
-  background: ${({ theme }) => theme.primary};
+  background: ${({ theme }) => theme.primary}15;
   box-shadow: 20px 20px 60px ${({ theme }) => theme.bgLight},
     -20px -20px 60px ${({ theme }) => theme.bgLight};
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
+    background: ${({ theme }) => theme.primary}30;
     box-shadow: 20px 20px 60px ${({ theme }) => theme.bgLight},
       filter: brightness(1);
   }
